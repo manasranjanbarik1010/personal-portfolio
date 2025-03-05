@@ -73,6 +73,7 @@ html {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .about-box {
@@ -84,17 +85,52 @@ html {
     width: 70%;
     max-width: 600px;
     transition: transform 0.3s ease-in-out;
+    text-align: center;
 }
 
 .about-box:hover {
     transform: translateY(-5px);
 }
 
-.btn-primary {
-    font-size: 1rem;
-    padding: 10px 20px;
-    border-radius: 5px;
+/* Resume Buttons Container */
+.resume-buttons {
+    display: flex;
+    justify-content: center; /* Center both buttons */
+    gap: 15px; /* Space between buttons */
+    margin-top: 20px;
 }
+
+/* Button Styles */
+.btn-primary, .btn-secondary {
+    width: 200px; /* Ensures both buttons are equal width */
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary:hover {
+    background-color: #545b62;
+}
+
+
 
 /* Projects Section */
 .projects-section {
@@ -155,4 +191,9 @@ h1 {
     display: inline-block;
     white-space: nowrap;
   }
+.navbar-nav .nav-link.active {
+    color: #f39c12 !important;
+    font-weight: bold;
+}
+
   
