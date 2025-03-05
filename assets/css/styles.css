@@ -151,3 +151,8 @@ html {
 #contactForm input:valid, #contactForm textarea:valid {
     border: 2px solid green;
 }
+h1 {
+    display: inline-block;
+    white-space: nowrap;
+  }
+  
