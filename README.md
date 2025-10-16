@@ -1,7 +1,8 @@
 # Personal Portfolio Website
 
 ## 📌 Project Overview
-This is a personal portfolio website designed to showcase skills, projects, and experience. It includes interactive features such as smooth scrolling, form validation, and a resume download/view option.
+## 📌 Project Overview
+This personal portfolio showcases my WordPress development skills, highlighting live projects like Tekxel and Xylo Consulting LLC, custom themes, Elementor pages, WooCommerce stores, and other web apps built using HTML, CSS, JavaScript, and PHP.
 
 ## 🚀 How to Navigate the Website
 - **Home:** Displays an introduction and background image.
